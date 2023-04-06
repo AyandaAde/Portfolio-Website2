@@ -76,11 +76,18 @@
     left: 25%;
   } 
 }
+@media screen and (max-width: 440px) {
+  #works .line{
+    width: 75%;
+    left: 12.5%;
+  } 
+}
 
 
 
 body {
   font-family: "Roboto", sans-serif;
+    overflow-x: hidden;
 }
 
 h1, h2, h3, h4, h5, h6 {
