@@ -20,6 +20,8 @@
 
 .header{
   height: 100vh;
+  width: 100vw;
+ 
 }
 
 .header-title{
@@ -48,9 +50,29 @@
 
   }
 }
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 685px) {
   #header-inner-div{
-    top: 25%;
+    top: 20%;
+
+  }
+  .cta-button{
+    position: relative;
+    bottom: 20px;
+  }
+}
+@media screen and (max-width: 556px) {
+  #header-inner-div h1{
+    font-size: 2.5rem;
+
+  }
+  #header-inner-div{
+    top: 30%;
+  }
+}
+@media screen and (max-width: 463px) {
+  
+  #header-inner-div h1{
+    font-size: 2rem;
 
   }
 }
@@ -85,9 +107,10 @@
 
 
 
+
 body {
   font-family: "Roboto", sans-serif;
-    overflow-x: hidden;
+  overflow-x: hidden;
 }
 
 h1, h2, h3, h4, h5, h6 {
