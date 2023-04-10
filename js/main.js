@@ -4,6 +4,54 @@
  * FACEBOOK: https://www.facebook.com/themefisher
  * GITHUB: https://github.com/themefisher/
  */
+function scrollFunction1() {
+  let e = document.getElementById("el1");
+  e.scrollIntoView({
+    block: 'start',
+    behavior: 'smooth',
+    inline: 'start'
+  });
+};
+function scrollFunction2() {
+  let e = document.getElementById("about");
+  // This ends the block to the window 
+  // bottom and also aligns the view to the center 
+  e.scrollIntoView({
+    block: 'start',
+    behavior: 'smooth',
+    inline: 'center'
+  });
+};
+function scrollFunction3() {
+  let e = document.getElementById("works");
+  // This ends the block to the window 
+  // bottom and also aligns the view to the center 
+  e.scrollIntoView({
+    block: 'start',
+    behavior: 'smooth',
+    inline: 'center'
+  });
+};
+function scrollFunction4() {
+  let e = document.getElementById("feature");
+  // This ends the block to the window 
+  // bottom and also aligns the view to the center 
+  e.scrollIntoView({
+    block: 'start',
+    behavior: 'smooth',
+    inline: 'center'
+  });
+};
+function scrollFunction5() {
+  let e = document.getElementById("call-to-action");
+  // This ends the block to the window 
+  // bottom and also aligns the view to the center 
+  e.scrollIntoView({
+    block: 'start',
+    behavior: 'smooth',
+    inline: 'center'
+  });
+};
 
 (function ($) {
   "use strict";
