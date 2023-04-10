@@ -14,7 +14,7 @@
 .navbar{
   position: fixed;
   opacity: 0.5;
-  width: 99vw;
+  width: 100vw;
   background-color: #F2F2F2;
   z-index: 2;
 }
