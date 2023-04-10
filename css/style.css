@@ -191,6 +191,13 @@
 
 }
 
+@media screen and (max-width: 991px) {
+  #about-image { 
+    left: 15%;
+  }
+  
+}
+
 .img-wrapper{
   border-radius: inherit;
   /* border-bottom-left-radius: 0px; */
